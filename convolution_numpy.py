@@ -134,8 +134,8 @@ with open(X_train, 'rb') as fim:
     Y_test = lbl[50000:]
     X_test = image_mat[50000:]
     
-    print(X_train.shape)
-    print(Y_train.shape)
+    print(X.shape)
+    print(Y.shape)
 
 
 # Declare Weights
